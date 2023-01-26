@@ -19,7 +19,7 @@ class API: APIProtocol {
     }
 }
 
-// Step 3: Create a FakeAPI that conforms to APIProtocol so it can be passed ass dependency of ClassToTest during unit testing
+// Step 3: Create a FakeAPI that conforms to APIProtocol so it can be passed as dependency of ClassToTest during unit testing
 class FakeAPI: APIProtocol {
     
     // Step 3.1: Make sure there's a flag to be able to predict and control the behavior of this FakeAPI
